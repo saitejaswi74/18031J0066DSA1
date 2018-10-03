@@ -1,0 +1,47 @@
+Show the contents of the id [ ] array and the number of times the array is accessed for each input pair when you use quick-find, quick-union, weighted quick-union, weighted quick-union path compression, for the sequence of inputs 9-0 3-4 5-8 7-2 2-1 5-7 0-3 4-2.Create a new git repository with name ADS-1 and clone to your local system
+•	Create a folder practice in that repository
+•	Answer the above problem in a file name problem-1.txt and add it to the folder ADS-1-practice/m1
+•	Push the repository to GitHub when your answer is done
+•	Enter the git commit ID in the blank below
+•	Do not use eval to submit this activity
+Quick Find:
+Id[]		0 1 2 3 4 5 6 7 8 9
+9,0 		0 1 2 3 4 5 6 7 8 0
+3,4		0 1 2 4 4 5 6 7 8 0
+5,8		0 1 2 4 4 8 6 7 8 0
+7,2		0 1 2 4 4 8 6 2 8 0
+2,1		0 1 1 4 4 8 6 1 8 0
+5,7		0 1 1 4 4 1 6 1 1 0
+0,3		4 1 1 4 4 1 6 1 1 4
+4,2		1 1 1 1 1 1 6 1 1 1
+Quick Union:
+Id[]		0 1 2 3 4 5 6 7 8 9
+9,0		0 1 2 3 4 5 6 7 8 0
+3,4		0 1 2 4 4 5 6 7 8 0
+5,8		0 1 2 4 4 8 6 7 8 0
+7,2		0 1 2 4 4 8 6 2 8 0
+2,1 		0 1 1 4 4 8 6 2 8 0
+5,7		0 1 1 4 4 8 6 2 1 0
+0,3		4 1 1 4 4 8 6 2 1 0
+4,2		4 1 1 4 1 8 6 2 1 0
+Weighted Quick Union:
+Id[]		0 1 2 3 4 5 6 7 8 9
+9,0		9 1 2 3 4 5 6 7 8 9
+3,4		9 1 2 3 3 5 6 7 8 9
+5,8		9 1 2 3 3 5 6 7 5 9
+7,2		9 1 7 3 3 5 6 7 5 9
+2,1		9 7 7 3 3 5 6 7 5 9
+5,7		9 7 7 3 3 7 6 5 5 9
+0,3		9 7 7 9 3 7 6 7 5 9
+4,2		9 7 7 9 3 7 6 7 5 7
+Weighted Quick Union path compression:
+Id[]		0 1 2 3 4 5 6 7 8 9
+9,0		9 1 2 3 4 5 6 7 8 9
+3,4		9 1 2 3 3 5 6 7 8 9
+5,8		9 1 2 3 3 5 6 7 5 9
+7,2		9 1 7 3 3 5 6 7 5 9
+2,1		9 7 7 3 3 5 6 7 5 9
+5,7		9 7 7 3 3 7 6 5 5 9
+0,3		9 7 7 9 3 7 6 7 5 9
+4,2		9 7 7 7 3 7 6 7 5 7
+
