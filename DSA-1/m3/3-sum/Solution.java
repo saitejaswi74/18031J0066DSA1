@@ -1,5 +1,3 @@
-package com.ds.activity6;
-
 import java.util.Scanner;
 
 public class Solution {
