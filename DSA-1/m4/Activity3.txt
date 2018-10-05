@@ -1,0 +1,21 @@
+1.What is a linked list
+Ans:Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.
+
+2.Why linked list
+Ans:Linked List is a very popular dynamic data structure. It is used to implement other data structures like stacks, trees, queues & graphs. So, all the applications of these data structures can be implemented with the linked list as well.
+1) Dynamic size
+2) Ease of insertion/deletion
+These are the drawbacks of an array to over come those drawbacks we use linked list.
+
+3.Methods in linkedlist
+1)Insert
+push() method is used for inserting element into linked list.
+
+2)Delete
+pop() is used for deleting element from linked list.
+
+3)removeAfter
+removeAfter() is the method used to remove element present after the given element.
+
+4)insertAfter
+insertAfter() is the method used to insert element present after the given element.

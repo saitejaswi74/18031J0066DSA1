@@ -1,0 +1,24 @@
+Give the output printed by java Stack for the input (where "-" means pop) it was - the best - of times - - - it was - the - -
+
+Answer the above problem in a file name problem-1.txt and add it to the folder ADS-1-practice/m4
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+
+Ans:
+it was - the best - of times - - - it was - the - -
+it->push
+was->pop
+the->push
+best->pop
+of->push
+times->pop
+Now pop() is again done and now 
+of->pop
+the->pop
+it->push
+was->pop
+the->pop
+Now pop() is again done and now
+it->pop
+Finally the statement becomes
+it it 
