@@ -1,0 +1,26 @@
+Show, how selection sort sorts the array E A S Y Q U E S T I O N.
+Selection sort
+ANS:
+step1:A E S Y Q U E S T I O N
+step2:A E E Y Q U S S T I O N
+step3:A E E I Q U S S T Y O N
+step4:A E E I N U S S T Y O Q
+step5:A E E I N O S S T Y U Q
+step6:A E E I N O Q S T Y U S
+step7:A E E I N O Q S S Y U T
+step8:A E E I N O Q S S T U Y
+After selection sort the elements in the array are A E E I N O Q S S T U Y
+
+Insertion sort
+step1:A E S Y Q U E S T I O N
+step2:A E S Y Q U E S T I O N
+step3:A E S Y Q U E S T I O N
+step4:A E Q S Y U E S T I O N
+step5:A E Q S U Y E S T I O N
+step6:A E E Q S U Y S T I O N
+step7:A E E Q S S U Y T I O N
+step8:A E E Q S S T U Y I O N
+step9:A E E I Q S S T U Y O N
+step10:A E E I O Q S S T U Y N
+step11:A E E I N O Q S S T U Y
+After selection sort the elements in the array are A E E I N O Q S S T U Y

@@ -1,0 +1,28 @@
+public class Selection { 
+
+public static void sort(Comparable[] a) {
+
+int N = ---------------;    //Blank 1
+
+for (int i = 0; i < N; i++) { 
+
+Int min = ---------------;    //Blank 2
+
+for (int j = i+1; j < N; j++) 
+
+if (less(a[j], a[min])) 
+
+min = ------------------; //Blank3
+
+exch(a, i, ----------------);     //Blank4
+
+}
+
+ }
+
+ }
+ANS:
+Blanck1 = a.length
+Blanck2 = i
+Blanck3 = j
+Blanck4 = min

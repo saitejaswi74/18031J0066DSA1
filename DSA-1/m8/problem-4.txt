@@ -1,0 +1,3 @@
+Which method runs faster for an array in reverse order, basic selection sort or basic insertion sort?
+ANS:
+I think that they would run similarly, since the values at every position will have to be changed. The worst case scenario for insertion sort is reverse order, so that would mean it is quadratic, and then the selection sort would already be quadratic as well.
