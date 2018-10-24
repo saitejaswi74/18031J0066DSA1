@@ -2,23 +2,29 @@ Learning by doing-1
 Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with top-down mergesort.
 
 ANS:
-
+0 1 2 3 4 5 6 7 8 9 10 11
 E A S Y Q U E S T I O N
+merge(array,left,middle,right)
 
-E A S Y Q U,E S T I O N
+merge(a,0,0,1)A E
 
-E A S,Y Q U,E S T,I O N
+merge(a,2,2,3)	   S Y
 
-E A,S,Y Q,U,E S,T,I O,N
+merge(a,0,2,3)A E S Y
 
-E,A,S,Y,Q,U,E,S,T,I,O,N
+merge(a,4,4,5)Q U
 
-A E,S,Q Y,U,E S,T,I O,N
+merge(a,6,6,7)		ES
 
-A E S,Q U Y,E S T,I N O
+merge(a,4,6,7)E Q S U
 
-A E Q S U Y,E I O N S T
+merge(a,0,4,7)A E E Q S S U Y
 
-A E E I N O Q S S T U Y	
+merge(a,8,8,9)I T
 
-After merge sort the elements are A E E I N O Q S S T U Y		   
+merge(a,10,10,11)	N O
+
+merge(a,8,10,11)I N O T
+
+merge(a,0,6,11)A E E I N O Q S S T U Y 
+		   

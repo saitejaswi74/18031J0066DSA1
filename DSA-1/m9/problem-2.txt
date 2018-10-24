@@ -1,0 +1,34 @@
+Learning by doing-2
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with bottom-up mergesort.
+
+ANS:
+0 1 2 3 4 5 6 7 8 9 10 11
+E A S Y Q U E S T I O N
+merge(array,left,middle,right)
+
+merge(a,0,0,1)A E
+
+merge(a,2,2,3)	   S Y
+
+merge(a,4,4,5)		Q U
+
+merge(a,6,6,7)			ES
+
+merge(a,8,8,9)				I T
+
+merge(a,10,10,11)				N O
+
+merge(a,0,2,3)A E S Y
+
+merge(a,4,6,7)		E Q S U
+
+merge(a,8,10,11)		I N O T
+
+merge(a,0,4,7)A E E Q S S U Y
+
+merge(a,0,6,11)A E E I N O Q S S T U Y 
+		
+		
+
+
+						
