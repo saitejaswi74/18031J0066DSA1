@@ -1,0 +1,36 @@
+public String endX(String str)
+
+{
+
+	if(str.length() == 0)
+
+		return str;
+
+	if(str.charAt(0) == 'x')
+
+		return endX(str.substring(1)) + 'x';
+
+	return str.charAt(0) + endX(str.substring(1));
+
+}
+
+Answer the following question when endX method is called with different parameters.
+
+endX("xxre")
+ANS:rexx
+
+
+endX("xxhixx")
+ANS:hixxxx
+
+
+endX("xx") 
+ANS:xx
+
+
+end("bxx")
+ANS:bxx
+
+
+end("bxax")
+ANS:baxx
