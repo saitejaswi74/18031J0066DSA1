@@ -1,0 +1,35 @@
+Learning by doing-1
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with quick sort.
+
+ANS:
+
+E A S Y Q U E S T I O N
+
+let E be the pivot element and we take i and j as left and right pointers
+if(i>pivot && j<pivot) then swap i,j.Step by step i gets incremented and j gets decremented.
+
+Step1:After swapping E and A
+A E S Y Q U E S T I O N
+
+Step2:Now the pivot element is S.After swapping Y and N
+A E S N Q U E S T I O Y
+
+Step3:After swapping U and O
+A E S N Q O E S T I U Y
+
+Step4:After swapping T and I
+A E S N Q O E S I T U Y
+
+Step6:Since j>i swap pivot s,j.
+A E I N Q O E S S T U Y
+
+Step7:Now the pivot element is I.Swap N and E
+A E I E Q O N S S T U Y
+
+Step8:Swap I and E
+A E E I Q O N S S T U Y
+
+Step9:Now the pivot is Q.Since j>i swap pivot Q,N
+A E E I N O Q S S T U Y
+
+After sorting elements are A E E I N O Q S S T U Y
