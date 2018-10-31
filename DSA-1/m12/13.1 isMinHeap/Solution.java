@@ -1,3 +1,4 @@
+ 
 
 import java.util.Scanner;
 
@@ -31,11 +32,11 @@ class Heap
 		while(2*i<n)
 		{
 			int j=2*i;
-			if(j<n && less(d,j+1,j))
+			if(j<n && less1(d,j+1,j))
 			{
 				j++;
 			}
-			if(!less(d,i,j))
+			if(!less1(d,i,j))
 			{
 				return false;
 			}
@@ -47,7 +48,7 @@ class Heap
 		
 		return true;
 	}
-	boolean less(Double d[],int j,int i)
+	boolean less1(Double d[],int j,int i)
 	{
 		return d[j]<=d[i];
 	}
@@ -110,10 +111,10 @@ public class Solution
 					String y3[]=null;
 					y3=y2.split(",");
 					Double[] d=new Double[y3.length+1];
-					for(int l=0;l<=y3.length-1;i++)
+					for(int l=1;l<=y3.length;i++)
 					{
 						//String z4=z3[l];
-						d[l]=Double.parseDouble(y3[l]);
+						d[l]=Double.parseDouble(y3[l-1]);
 					}
 					Heap h=new Heap();
 					System.out.println(h.Min_num(1, d));
@@ -130,10 +131,10 @@ public class Solution
 					String x3[]=null;
 					x3=x2.split(",");
 					Double[] d=new Double[x3.length+1];
-					for(int l=0;l<=x3.length-1;i++)
+					for(int l=1;l<=x3.length;i++)
 					{
 						//String z4=z3[l];
-						d[l]=Double.parseDouble(x3[l]);
+						d[l]=Double.parseDouble(x3[l-1]);
 					}
 					Heap h=new Heap();
 					System.out.println(h.Min_num(1, d));
