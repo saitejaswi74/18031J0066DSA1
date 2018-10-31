@@ -1,0 +1,66 @@
+Suppose that the sequence P R I O * R * * I * T * Y * * * Q U E * * * U * E 
+(where a letter means insert and an asterisk means remove the maximum) is applied to an initially 
+empty priority queue. Give the sequence of values returned by remove the maximum operations.
+
+ANS:
+
+Insert: P R I O
+After heapifying sequence is R P I O
+Remove: R
+Sequence after removing is P I O
+
+Insert:R 
+After heapifying sequence is R P O I
+Remove: R
+
+Sequence after removing is P O I
+Remove: P
+
+Sequence after removing O I
+Insert: I
+After heapifying sequence is O I I
+Remove: O
+
+Sequence after removing I I
+Insert: T
+After heapifying sequence is T I I
+Remove: T
+
+Sequence after removing I I
+Insert:Y
+After heapifying sequence is Y I I
+Remove:Y
+
+Sequence after removing I I
+Remove:I
+After heapifying sequence is  I
+
+Sequence after removing I
+Remove:I
+No elements
+
+Insert:Q U E
+After heapifying sequence is U Q E
+Remove: U
+
+Sequence after removing Q E
+Remove: Q
+
+Sequence after removing E
+Remove: E
+
+No elements
+Insert: U
+Remove: U
+
+Insert: E
+
+After removing maximum operations R R P O T Y I I U Q E U
+
+E is on the left
+
+
+
+
+
+

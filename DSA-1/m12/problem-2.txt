@@ -1,0 +1,26 @@
+Fill in the blanks-1
+
+Fill the missing statements in the below code:
+private void sink(int k)
+{
+	while(2*k<=N)
+	{
+		int j=2*k;
+		if(j<N && less(j,j+1))j++;
+		if(!less(k,j))break;
+		exch(k,j);
+		k=j;
+	}
+}
+ANS:
+
+Blank1:N
+Blank2:2*k
+Blank3:N
+Blank4:j
+Blank5:j++
+Blank6:k
+Blank7:j
+Blank8:k
+Blank9:j
+Blank10:j
