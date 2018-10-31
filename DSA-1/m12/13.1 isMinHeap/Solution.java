@@ -1,4 +1,3 @@
- 
 
 import java.util.Scanner;
 
@@ -91,7 +90,7 @@ public class Solution
 					String z3[]=null;
 					z3=z2.split(",");
 					Double[] d=new Double[z3.length+1];
-					for(int l=0;l<=z3.length-1;i++)
+					for(int l=0;l<=z3.length-1;l++)
 					{
 						//String z4=z3[l];
 						d[l]=Double.parseDouble(z3[l]);
@@ -111,7 +110,7 @@ public class Solution
 					String y3[]=null;
 					y3=y2.split(",");
 					Double[] d=new Double[y3.length+1];
-					for(int l=1;l<=y3.length;i++)
+					for(int l=1;l<=y3.length;l++)
 					{
 						//String z4=z3[l];
 						d[l]=Double.parseDouble(y3[l-1]);
@@ -131,7 +130,7 @@ public class Solution
 					String x3[]=null;
 					x3=x2.split(",");
 					Double[] d=new Double[x3.length+1];
-					for(int l=1;l<=x3.length;i++)
+					for(int l=1;l<=x3.length;l++)
 					{
 						//String z4=z3[l];
 						d[l]=Double.parseDouble(x3[l-1]);
