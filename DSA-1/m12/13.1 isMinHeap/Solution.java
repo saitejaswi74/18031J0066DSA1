@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 class Heap
@@ -81,11 +80,6 @@ public class Solution
 				}
 				break;
 			case "Float":
-				
-				break;
-			case "Double":
-				break;
-			case "Integer":
 				int n1=sc.nextInt();
 				String[] z=new String[n1];
 				String z1=sc.nextLine();
@@ -96,10 +90,50 @@ public class Solution
 					String z3[]=null;
 					z3=z2.split(",");
 					Double[] d=new Double[z3.length+1];
-					for(int l=1;l<=z3.length;i++)
+					for(int l=0;l<=z3.length-1;i++)
 					{
 						//String z4=z3[l];
-						d[l]=Double.parseDouble(z3[l-1]);
+						d[l]=Double.parseDouble(z3[l]);
+					}
+					Heap h=new Heap();
+					System.out.println(h.Min_num(1, d));
+				}
+				break;
+			case "Double":
+				int n2=sc.nextInt();
+				String[] y=new String[n2];
+				String y1=sc.nextLine();
+				
+				for(int i=0;i<y.length;i++)
+				{
+					String y2=sc.next();
+					String y3[]=null;
+					y3=y2.split(",");
+					Double[] d=new Double[y3.length+1];
+					for(int l=0;l<=y3.length-1;i++)
+					{
+						//String z4=z3[l];
+						d[l]=Double.parseDouble(y3[l]);
+					}
+					Heap h=new Heap();
+					System.out.println(h.Min_num(1, d));
+				}
+				break;
+			case "Integer":
+				int n3=sc.nextInt();
+				String[] x=new String[n3];
+				String x1=sc.nextLine();
+				
+				for(int i=0;i<x.length;i++)
+				{
+					String x2=sc.next();
+					String x3[]=null;
+					x3=x2.split(",");
+					Double[] d=new Double[x3.length+1];
+					for(int l=0;l<=x3.length-1;i++)
+					{
+						//String z4=z3[l];
+						d[l]=Double.parseDouble(x3[l]);
 					}
 					Heap h=new Heap();
 					System.out.println(h.Min_num(1, d));
